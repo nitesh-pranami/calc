@@ -88,25 +88,25 @@ public class MainActivity extends AppCompatActivity
                     out.setText(null);
 
                 }
-                //out.setText(out.getText()+"+" );
+                
                 break;
             case R.id.sub:
                 value1 = Float.parseFloat(out.getText() + "");
                 sub = true;
                 out.setText(null);
-                //out.setText(out.getText()+"-" );
+                
                 break;
             case R.id.mul:
                 value1 = Float.parseFloat(out.getText() + "");
                 mul = true;
                 out.setText(null);
-                //out.setText(out.getText()+"*" );
+                
                 break;
             case R.id.div:
                 value1 = Float.parseFloat(out.getText() + "");
                 div = true;
                 out.setText(null);
-                //out.setText(out.getText()+"/" );
+                
                 break;
             case R.id.c:
 
@@ -135,9 +135,7 @@ public class MainActivity extends AppCompatActivity
 
                 }
 
-                //CharSequence expr= out.getText();
-
-                //out.setText(out.getText()+"\n=result");
+               
                 break;
             case R.id.dot:
                 out.setText(out.getText() + ".");
